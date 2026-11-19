@@ -9,7 +9,7 @@ LINOW* addresses the zero-similarity issue of LINOW in similarity computation fo
 SIGEM* employs LINOW* in the embedding process; it inherits all the properties of SIGEM while improving its effectiveness in graph embedding.
 
 ## Installation and Usage
-In order to run SIGEM, the following packages are required:
+In order to run SIGEM*, the following packages are required:
 ```
 Python       = 3.12
 tensorflow   = 2.18.0
@@ -18,7 +18,7 @@ scipy        = 1.13.1
 scikit-learn = 1.5.2
 tqdm         = 4.66.6
 ```
-SIGEM_STAR can be run directly from the command line or migrated to your favorite IDE.
+SIGEM* can be run directly from the command line or migrated to your favorite IDE.
 ## Graph Format
 1) A graph must be represented as a text file under the **edge list format** in which, each line corresponds to an edge in the graph, tab is used as the separator of the two nodes, and the node index is started from 0.
 2) A single original link in an **undirected graph and its train/test splitted graphs** must be represented via two links in both directions.
@@ -69,7 +69,7 @@ SIGEM* has the following parameters:
 --ld: In-links traversal probability for LINOW*
 ```
 ### NOTE:
-**1- When "--lt" is set to 'in-links', 'out-links', and 'both-links', the embedding process employs SIGEM based on in-links, SIGEM based on out-links, and SIGEM***.
+**1- "--lt" can be set as 'in-links', 'out-links', and 'both-links'** to perform the embedding process using SIGEM based on in-links, SIGEM based on out-links, and SIGEM*.
 
 **2- It is highly recommended** to set the values of (1) "--itr" and "--damping_factor" to 5 and 0.2, respectively, for all tasks, (2) "--scaling_factor" to 10, 10, and 2 for link prediction, node classification, and graph reconstruction tasks, respectively, (3) --ld to 0.9 for all tasks, and "--bch_cpu", "--bch_gpu", and "--lr" parameters to the ones explained in Section 5.3.1 of the paper.
 
