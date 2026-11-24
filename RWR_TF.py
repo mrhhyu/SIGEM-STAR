@@ -1,5 +1,5 @@
 '''
-The batch-wise CPU and GPU implementation of Random Walk with Restart (RWR) 
+The batch-wise CPU and GPU implementations of Random Walk with Restart (RWR) 
 [Fast random walk with restart and its applications, ICDM'06]  
 '''
 import tensorflow as tf
