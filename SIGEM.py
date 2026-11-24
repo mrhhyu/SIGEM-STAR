@@ -2,7 +2,7 @@
     Created on April 17, 2026
     The Python implementation of SIGEM*
         To run SIGEM: set "link_type" to "in-links" or "out-links" 
-        To run SIGEM*: set "link_type" is set to "both-links"
+        To run SIGEM*: set "link_type" to "both-links"
 '''
 import os
 os.environ['TF_XLA_FLAGS'] = '--tf_xla_auto_jit=2'
