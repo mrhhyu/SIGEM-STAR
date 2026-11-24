@@ -1,6 +1,6 @@
 '''
     Created on April 17, 2026
-    The Python implementation of SIGEM variants SIGEM-ASS and SIGEM-RWR in the paper:
+    The Python implementation of SIGEM variants, SIGEM-ASS and SIGEM-RWR, in the paper:
         SIGEM-ASS: set sim_method='AdaSim*
         SIGEM-RWR: sim_method='RWR'
 '''
