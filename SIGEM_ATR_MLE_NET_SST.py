@@ -1,6 +1,6 @@
 '''
     Created on April 17, 2026
-    The Python implementation of SIGEM variants: SIGEM-ATR, SIGEM-MLE, SIGEM-NET, and SIGEM-SST in the paper  
+    The Python implementation of SIGEM variants, SIGEM-ATR, SIGEM-MLE, SIGEM-NET, and SIGEM-SST, in the paper  
     Implementation of: 
         AttentionRank [Learning a deep listwise context model for ranking refinement, SIGIR'18]; set loss_type='AttentionRank'
         ListMLE [Listwise approach to learning to rank: Theory and algorithm, ICML'08]; set loss_type='listMLE'
